@@ -68,6 +68,7 @@
     &:focus {
             fill: $brand-color-blue;
             border: $brand-color-blue 1px solid;
+            cursor: pointer;
         }
 }
 
@@ -128,6 +129,7 @@
     padding: 12px 16px;
     resize: none;
     margin-top: 4px;
+    height: 120px;
     margin-bottom: 20px;
     outline: none;
     transition-property: border-color;
@@ -214,6 +216,8 @@
 }
 
 .order-form__button {
+    border-radius: 4px;
+    border: 0;
     background-color: $brand-color-blue;
     color: $brand-color-white;
     padding: 10px 36px;
