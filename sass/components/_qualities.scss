@@ -31,9 +31,7 @@
   border-radius: 4px;
   margin-bottom: 30px;
   height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@include flexCenter;
 }
 
 .qualities__title {

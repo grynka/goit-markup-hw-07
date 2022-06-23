@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: $fontPrimary;
     margin: 0 auto;
     color: $brand-color;
     font-size: 14px;
@@ -21,12 +21,11 @@ h1 {
 }
 
 .section {
-    padding: 94px 0;
+    @extend %section;
 }
 
 img {
-    display: block;
-    max-width: 100%;
+@extend %img;
 }
 
 .last {
