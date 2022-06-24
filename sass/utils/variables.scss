@@ -9,15 +9,3 @@
     $margin-li: 30px;
     $fontPrimary: Roboto, sans-serif;
     $fontLogo: Raleway, sans-serif;
-
-    %section { padding-top: 94px; padding-bottom: 94px; }
-    %img {display: block; max-width: 100%;}
-
-    $mobile:480px;
-    $tablet:768px;
-
-@mixin flexCenter($type: flex, $main-axis: center, $cross-axis: center) {
-    display: $type;
-    justify-content: $main-axis;
-    align-items: $cross-axis;
-}
